@@ -29,12 +29,87 @@
         </navbar>
 
         <section>
-            <h2>Información personal</h2>
+            <h2>Educación</h2>
+            <table border="1px solid">
+                <tr>
+                    <th>Año</th>
+                    <th>Institución</th>
+                    <th>Lugar</th>
+                    <th>¿Culminó?</th>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>                
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>                
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>                
+                </tr>
+            </table>
+
+            <br>
+
+            <form>
+                <fieldset>
+                    <legend><h3>Agregar Estudios</h3></legend>
+                    <p><label for="slanio"><strong>Año: </strong></label>
+                        <select id="slanio">
+                            <option>2017</option>
+                            <option>2016</option>
+                            <option>2015</option>
+                            <option>2014</option>
+                            <option>2013</option>
+                            <option>2012</option>
+                            <option>2011</option>
+                            <option>2010</option>
+                            <option>2009</option>
+                            <option>2008</option>
+                            <option>2007</option>
+                            <option>2006</option>
+                            <option>2005</option>
+                            <option>2004</option>
+                            <option>2003</option>
+                            <option>2002</option>
+                            <option>2001</option>
+                            <option>2000</option>
+                        </select>
+                    </p>
+                    <p><label for="txtInstitucion"><strong>Institución: </strong></label>
+                        <input type="text" id="txtInstitucion" required/>
+                    </p>
+                    <p><label for="txtlugar"><strong>Lugar: </strong></label>
+                        <textarea rows="2" id="txtlugar" required></textarea>
+                    </p>
+                    <p><label><strong>¿Culminó</strong></label>
+                        <input type="radio" name="culmino" value="Si" required/>
+                        <input type="radio" name="culmino" value="No" required/>
+                    </p>
+                    <p>
+                        <input type="submit" value="Enviar"/>
+                    </p>
+
+                </fieldset>
+            </form>
 
         </section>
-
+        <br>
         <footer>
-
+            <strong>Derechos reservados</strong>
+            <ul>
+                <li><strong>Correo electrónico: </strong><em>correomuestra@gmail.com</em></li>
+                <li><strong>Teléfono: </strong><em>7-589-586</em></li>
+                <li><strong>Dirección: </strong><em>Calle 5ª 57 Sur 25</em></li>
+            </ul>
         </footer>
     </body>
 </html>
